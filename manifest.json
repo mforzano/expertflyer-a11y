@@ -1,0 +1,1 @@
+{    "manifest_version": 3,    "name": "ExpertFlyer Accessibility",    "version": "1.0.0",    "content_scripts": [        {            "js": ["src/expertflyer_seatmap.js"],            "matches": ["https://www.expertflyer.com/air/seatMapResults.do"]        }    ]}
